@@ -1,0 +1,22 @@
+.about {
+  @extend .flex-col-center;
+  gap: 2rem;
+  p {
+      @media #{$sm} {
+      line-height: 40px;
+      width: 70%;
+      margin: 0 auto;
+    }
+    @media #{$lg} {width: 50%;}
+  }
+  .stackContainer {
+    @extend .flex-row-center;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    padding-bottom: 2.5rem;
+    img {
+      width: 15%;
+      @media #{$sm} {width: 8%;}
+    }
+  }
+}
