@@ -1,0 +1,56 @@
+.contact {
+  &__form {
+    text-align: initial;
+    padding: 0.2rem 1rem;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 90%;
+
+    @media #{$md} {
+      width: 70%;
+    }
+    @media #{$xl} {
+      width: 50%;
+    }
+
+    :is(input, textarea) {
+      border-radius: 15px;
+      background: $base;
+      border: 1px solid $font;
+      background: none;
+      color: $font;
+      padding: 0.6rem 2rem;
+      margin-bottom: 1.5rem;
+      display: block;
+      width: 100%;
+      &:focus {
+        outline: 1.5px solid #00ffea;
+      }
+    }
+    textarea {
+      resize: none;
+      height: 200px;
+      padding: 0.6rem 2rem;
+    }
+
+    button[type="submit"] {
+      position: relative;
+      left: 50%;
+      transform: translate(-50%);
+    }
+    #form-error {
+      background: red;
+      text-align: center;
+      padding: 0.5rem;
+      font-size: 90%;
+      margin-bottom: 10px;
+      border-radius: 25px;
+      display: none;
+    }
+
+    input:-webkit-autofill {
+      transition: background-color 5000s ease-in-out 0s;
+      -webkit-text-fill-color: #fff !important;
+    }
+  }
+}
