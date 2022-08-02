@@ -82,3 +82,6 @@
     @media #{$sm}{background: none;}
   }
 }
+.overlay{
+  @media #{$sm}{display: none;}
+}
