@@ -1,0 +1,103 @@
+.hero {
+  // border: 1px solid red;
+  // color: black;
+  font-family: 'Staatliches', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  text-align: center;
+  white-space: nowrap;
+  padding-block: 2.7rem;
+  height: 100vh;
+  height: calc(100vh - 67px);
+  background: linear-gradient(to bottom, #171025, #0f0713);
+  position: relative;
+  overflow: hidden;
+  .pattern-bg{
+    position: absolute;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    
+    @media #{$sm}{
+      transform: rotate(0);
+      object-fit: fill;
+    }
+    opacity: 0.03;
+  }
+  
+  h1 {
+    font-size: 1.3rem;
+  }
+  @media screen and (min-width: 436px) {
+    h1 {
+      font-size: 1.85rem;
+    }
+  }
+  @media #{$sm} {
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+  @media #{$md} {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+  span {
+    font-weight: 300;
+  }
+  
+  .avatar {
+    z-index: 1; 
+    img{
+      width: 125px;
+      pointer-events: none;
+    }
+  }
+  
+  .bolder {
+    font-weight: 600;
+    color: $primary;
+    @extend .gradient-text;
+    font-size: 140%;
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+  a {
+    font-size: 1.7rem;
+    color: $font;
+    &:hover {
+      color: white;
+    }
+  }
+
+  .arrows-down {
+    position: absolute;
+    bottom: 2%;
+    font-size: 2.5rem;
+    cursor: pointer;
+    animation: pulse 1s infinite;
+  }
+  @keyframes pulse {
+    0% {
+      transform: translateY(2%);
+    }
+
+    50% {
+      transform: translateY(10%);
+    }
+
+    100% {
+      transform: translateY(2%);
+    }
+  }
+}
