@@ -1,0 +1,84 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.9rem 1.5rem;
+  position: fixed;
+  width: 100%;
+  left: 0%;
+  top: 0;
+  background:  #181127be;
+  z-index: 3;
+  backdrop-filter: blur(9px);
+  
+  @media #{$sm} {
+    justify-content: space-around;
+    padding-block: 0.5rem;
+  }
+
+  &__logo {
+
+    font-size: 190%;
+    font-family: 'Staatliches', cursive;
+    &:hover{
+      @extend .gradient-text;
+    }
+    .dot {
+      font-size: 130%;
+    }
+  }
+  &__links {   
+    position: absolute;
+    top: 0;
+    height: 0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    overflow-y: hidden;
+    transition: height 0.2s;
+    background:$base;
+    background: linear-gradient(to  bottom, #171025, #0f0713);
+ 
+    @media #{$sm} {
+      position: static;
+      flex-direction: row;
+      width: auto;
+      height: auto;
+      background: none;
+      box-shadow: none;
+      transform: translate(0);
+    }
+  }
+
+  .links-active {
+    height: calc(60vh - 65px); 
+    @media #{$sm} {
+      height: auto;      
+    }
+  }
+
+  &__icon {
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 150%;
+    
+    &:hover{color:white;}
+
+    @media #{$sm} {display: none;}
+  }
+}
+.nav-dark{
+  background: #00000094;
+  a{color: white;}
+
+  .nav__links{
+    background: #000000;
+    @media #{$sm}{background: none;}
+  }
+}
