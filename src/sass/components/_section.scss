@@ -1,0 +1,42 @@
+section {
+  padding: 1rem;
+  position: relative;
+  text-align: center;
+  overflow-x: hidden;
+  .big {
+    font-family: "Staatliches", cursive;
+    color: #1b0d205e;
+    font-size: 5.5rem;
+
+    @media #{$xss} {font-size: 7rem;}
+    @media #{$md} {font-size: 8.5rem;}
+    @media #{$lg} {font-size: 10rem;}
+  }
+
+  h2 {
+    font-family: "Staatliches", cursive;
+    font-size: 3.5rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 2.2rem;
+    color: $primary;
+    background: -webkit-linear-gradient( 2deg, #47b8b8, #895ad4, #fc5050) ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    @media #{$xss} {
+      top: 2.4rem;
+      font-size: 4.5rem;
+    }
+    @media #{$md} {
+      top: 2.6rem;
+      font-size: 5.5rem;
+    }
+    @media #{$lg} {
+      top: 3.2rem;
+      font-size: 6.5rem;
+    }
+  }
+}
