@@ -1,0 +1,31 @@
+//logo font
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&family=Staatliches&display=swap");
+// body font
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {scroll-behavior: smooth;}
+body {
+  color: $font;
+  padding-top: 3.2rem;
+  font-family: "Poppins", sans-serif;
+  background: $base;
+}
+ul {list-style: none;}
+a,
+li,
+button {display: inline-block;}
+a {
+  text-decoration: none;
+  color: $font;
+  &:hover {color: white;}
+}
+button {
+  border: none;
+  cursor: pointer;
+}

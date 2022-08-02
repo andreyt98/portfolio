@@ -1,0 +1,39 @@
+.gradient-text{
+    background: -webkit-linear-gradient( 2deg, #47b8b8, #895ad4, #fc5050);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradient-bg{
+    background: -webkit-linear-gradient( 2deg, #47b8b8, #895ad4, #fc5050);
+    &:hover{
+      background: -webkit-linear-gradient( 2deg, #318181, #65429e, #cf3f3f);
+    }
+}
+.horizontal-center {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .flex-row-space-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .flex-col-space-between{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .flex-row-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .flex-col-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }

@@ -1,0 +1,15 @@
+.primary-btn{
+    border-radius: 25px;
+    border: 1px solid $font;
+    background: none;
+    color: #fff;
+    padding: .8rem 1rem;
+    width: 150px;
+    margin: 0 auto;
+    &:hover{
+        background: #160F22;        
+    }
+    &:focus{
+        outline: 1.5px solid #00ccff;
+    }
+}
