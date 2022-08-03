@@ -12,9 +12,14 @@ export const Hero = () => {
         <span class=bolder >Frontend developer</span>
     </h1>
 
+    
     <div class="avatar">${avatar}</div>
-            ${arrows} 
-  `;
+    ${arrows} 
+    `;
+    // <div class="socials">
+    //  <a href="https://www.linkedin.com/in/andrey-torrente">${linkedin}</a>
+    //  <a href="https://www.github.com/andreyt98">${github}</a>
+    //  </div>
 
   return hero;
 };

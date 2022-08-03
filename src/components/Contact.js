@@ -1,5 +1,7 @@
 import { resetForm } from "../../helpers/resetForm.js";
 import { sendEmail } from "../../helpers/sendEmail.js";
+import { socials } from "../../helpers/icons.js";
+const { linkedin, github } = socials;
 
 export const Contact = (clase, nombre) => {
   const contact = document.createElement("SECTION");
@@ -8,6 +10,10 @@ export const Contact = (clase, nombre) => {
     
         <h1 class=big>${nombre}</h1>
         <h2>${nombre}</h2>   
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/andrey-torrente" target="_blank">${linkedin}</a>
+          <a href="https://www.github.com/andreyt98" target="_blank">${github}</a>
+        </div>
         <form class="contact__form" id="form">
         
             <label for="name">Name

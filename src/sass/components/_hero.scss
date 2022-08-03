@@ -1,6 +1,4 @@
 .hero {
-  // border: 1px solid red;
-  // color: black;
   font-family: 'Staatliches', cursive;
   display: flex;
   flex-direction: column;
@@ -20,34 +18,25 @@
     object-fit: cover;
     height: 100%;
     width: 100%;
+    opacity: 0.03;
     
     @media #{$sm}{
       transform: rotate(0);
       object-fit: fill;
     }
-    opacity: 0.03;
   }
   
-  h1 {
-    font-size: 1.3rem;
-  }
+  h1 {font-size: 1.3rem;}
+  span {font-weight: 300;}
+
   @media screen and (min-width: 436px) {
-    h1 {
-      font-size: 1.85rem;
-    }
+    h1 {font-size: 1.85rem;}
   }
   @media #{$sm} {
-    h1 {
-      font-size: 2.5rem;
-    }
+    h1 {font-size: 2.5rem;}
   }
   @media #{$md} {
-    h1 {
-      font-size: 3rem;
-    }
-  }
-  span {
-    font-weight: 300;
+    h1 {font-size: 3rem;}
   }
   
   .avatar {
@@ -64,22 +53,6 @@
     @extend .gradient-text;
     font-size: 140%;
   }
-
-  .socials {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    align-items: center;
-    justify-content: center;
-  }
-  a {
-    font-size: 1.7rem;
-    color: $font;
-    &:hover {
-      color: white;
-    }
-  }
-
   .arrows-down {
     position: absolute;
     bottom: 2%;
