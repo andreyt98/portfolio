@@ -1,5 +1,4 @@
-import { socials, avatar, arrows } from "../../helpers/icons.js";
-const { linkedin, github } = socials;
+import { avatar, arrows } from "../../helpers/icons.js";
 
 export const Hero = () => {
   const hero = document.createElement("DIV");
@@ -16,11 +15,6 @@ export const Hero = () => {
     <div class="avatar">${avatar}</div>
     ${arrows} 
     `;
-    // <div class="socials">
-    //  <a href="https://www.linkedin.com/in/andrey-torrente">${linkedin}</a>
-    //  <a href="https://www.github.com/andreyt98">${github}</a>
-    //  </div>
-
   return hero;
 };
 
