@@ -3,8 +3,7 @@ export const socials = {
     linkedin: `<i class="bi bi-linkedin"></i>`
 }
 
-export const avatar = `<img class='' src='/assets/avatar.svg'
-/>`;
+export const avatar = `<img src='/assets/avatar.svg' alt="avatar">`;
 
 export const arrows = `<i class="bi bi-chevron-double-down arrows-down"></i>`
 

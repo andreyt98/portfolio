@@ -20,7 +20,8 @@ export const About = (clase,nombre) => {
             const stackImg = document.createElement('IMG');
 
             stackImg.src = element;
-            stackImg.title = element.slice(20,-4)
+            stackImg.alt = element.slice(17,-4);
+            stackImg.title = element.slice(17,-4)
             stackContainer.append(stackImg);
         });
         

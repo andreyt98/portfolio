@@ -5,7 +5,7 @@ export const Hero = () => {
   hero.classList.add("hero");
 
   hero.innerHTML = `
-    <img class="pattern-bg" src="../../assets/pattern.png"></img>
+    <img class="pattern-bg" src="../../assets/pattern.png" alt="hero-pattern">
     <h1>
         <span>Andrey Torrente</br></span>
         <span class=bolder >Frontend developer</span>
