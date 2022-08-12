@@ -1,7 +1,7 @@
 export const projectsData = [
    {
     name: "Movies and TV shows trailer app",
-    mockup: "/assets/mockups/view-mockup.png",
+    mockup: "https://res.cloudinary.com/andreyt/image/upload/q_auto/v1660264116/Portfolio-assets/view-mockup_n0ttwl.webp",
     description:
       "This is a vanilla JS single page application.<br>It use a router to display content, and Fetch to consume TMDB API.",
     repo: "https://github.com/andreyt98/view",
@@ -11,7 +11,7 @@ export const projectsData = [
   
   {
     name: "Frontend for a booking hotels webpage",
-    mockup: "/assets/mockups/travel-mockup.png",
+    mockup: "https://res.cloudinary.com/andreyt/image/upload/q_auto/v1660263668/Portfolio-assets/travel-mockup_cmxseh.webp",
     description:
     "Frontend for a ficticious booking hotels webpage using SASS,<br>focused on responsive design.",
     repo: "https://github.com/andreyt98/travel",
@@ -21,7 +21,7 @@ export const projectsData = [
   {
     id:'portfolio',
     name: "Personal portfolio",
-    mockup: "/assets/mockups/portfolio-mockup.png",
+    mockup: "https://res.cloudinary.com/andreyt/image/upload/q_auto/v1660263688/Portfolio-assets/portfolio-mockup_daktym.webp",
     description:
     "Portfolio to showcase my skills and projects, it was built with JavaScript, SASS and Vite (build tool).<br> Its's still under construction and there'll be more projects soon! :)",
     repo: "https://github.com/andreyt98/portfolio",

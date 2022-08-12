@@ -5,7 +5,7 @@ export const Hero = () => {
   hero.classList.add("hero");
 
   hero.innerHTML = `
-    <img class="pattern-bg" src="../../assets/pattern.png" alt="hero-pattern">
+    <img class="pattern-bg" src="https://res.cloudinary.com/andreyt/image/upload/q_auto/v1660263699/Portfolio-assets/pattern_qtvc2x.webp" alt="hero-pattern">
     <h1>
         <span>Andrey Torrente</br></span>
         <span class=bolder >Frontend developer</span>
