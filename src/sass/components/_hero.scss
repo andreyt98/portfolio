@@ -38,7 +38,7 @@
   @media #{$md} {
     h1 {font-size: 3rem;}
   }
-  
+
   .avatar {
     z-index: 1; 
     img{
@@ -46,7 +46,7 @@
       pointer-events: none;
     }
   }
-  
+ 
   .bolder {
     font-weight: 600;
     color: $primary;
@@ -55,10 +55,12 @@
   }
   .arrows-down {
     position: absolute;
-    bottom: 2%;
+    bottom: 12%;
     font-size: 2.5rem;
     cursor: pointer;
     animation: pulse 1s infinite;
+    @media #{$sm} {bottom: 2%;
+    }
   }
   @keyframes pulse {
     0% {

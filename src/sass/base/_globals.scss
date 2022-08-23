@@ -12,9 +12,11 @@
 html {scroll-behavior: smooth;}
 body {
   color: $font;
-  padding-top: 3.2rem;
   font-family: "Poppins", sans-serif;
   background: $base;
+  @media #{$sm}{
+    padding-top: 3.2rem;
+  }
 }
 ul {list-style: none;}
 a,
