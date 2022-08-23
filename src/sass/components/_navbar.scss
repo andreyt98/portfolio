@@ -41,6 +41,9 @@
     gap: 1.5rem;
     overflow-y: hidden;
     transition: height 0.2s;
+    @media #{$xs} {
+      gap: 2rem;
+    }
     @media #{$xss} {
       gap: 2.5rem;
     }
