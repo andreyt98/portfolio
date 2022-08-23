@@ -1,3 +1,4 @@
+import {home,projects,about,contact} from '../../helpers/icons.js'
 export const Navbar = () => {
   const nav = document.createElement("NAV");
   nav.classList.add("nav");
@@ -8,10 +9,10 @@ export const Navbar = () => {
         <div><i class="bi bi-list-nested nav__icon"></i></div>
 
         <ul class=nav__links>
-            <li> <a href=# class="link-home">Home </a> </li>
-            <li> <a href=# class="link-projects">Projects </a> </li>
-            <li> <a href=# class="link-about">About</a> </li>
-            <li> <a href=# class="link-contact">Contact me </a> </li>          
+            <li> <a href=# class="link-home">${home}Home </a> </li>
+            <li> <a href=# class="link-projects">${projects}Projects </a> </li>
+            <li> <a href=# class="link-about">${about}About</a> </li>
+            <li> <a href=# class="link-contact">${contact}Contact</a> </li>          
         </ul>
     `;
 
@@ -37,11 +38,11 @@ document.addEventListener("click", (e) => {
 
   }
   
-  if (e.target.matches(".nav__links li a") || e.target.matches(".overlay") ) {
-    links.classList.remove("links-active");
-    document.querySelector(".overlay").remove();
-    document.querySelector('.nav__icon').classList.add("bi-list-nested")
-    document.querySelector('.nav__icon').classList.remove("bi-x-lg")
-  }
+  // if (e.target.matches(".nav__links li a") || e.target.matches(".overlay") ) {
+  //   links.classList.remove("links-active");
+  //   document.querySelector(".overlay").remove();
+  //   document.querySelector('.nav__icon').classList.add("bi-list-nested")
+  //   document.querySelector('.nav__icon').classList.remove("bi-x-lg")
+  // }
   
 });

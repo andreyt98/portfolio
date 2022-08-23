@@ -1,25 +1,32 @@
 .nav {
   display: flex;
+  flex-direction:  column;
   align-items: center;
   justify-content: space-between;
-  padding: 0.9rem 1.5rem;
+  padding: .6rem 0;
   position: fixed;
   width: 100%;
   left: 0%;
-  top: 0;
+  bottom: 0;
   background:  #181127be;
   z-index: 3;
   backdrop-filter: blur(9px);
   
   @media #{$sm} {
+    flex-direction: row;
     justify-content: space-around;
     padding-block: 0.5rem;
+    top: 0;
+    bottom: auto;
   }
 
   &__logo {
-
     font-size: 190%;
     font-family: 'Staatliches', cursive;
+    display: none;
+    @media #{$sm} {
+      display: block;
+    }
     &:hover{
       @extend .gradient-text;
     }
@@ -27,23 +34,31 @@
       font-size: 130%;
     }
   }
-  &__links {   
-    position: absolute;
-    top: 0;
-    height: 0;
-    left: 50%;
-    transform: translate(-50%);
-    width: 100%;
+  &__links {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2.5rem;
+    gap: 1.5rem;
     overflow-y: hidden;
     transition: height 0.2s;
-    background:$base;
-    background: linear-gradient(to  bottom, #171025, #0f0713);
- 
+    @media #{$xss} {
+      gap: 2.5rem;
+    }
+
+    a{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      i{
+        pointer-events: none;
+        font-size: 140%;
+        @media #{$sm} {
+          display: none;
+        }
+      }
+    }
     @media #{$sm} {
       position: static;
       flex-direction: row;
@@ -54,22 +69,19 @@
       transform: translate(0);
     }
   }
-
   .links-active {
     height: calc(60vh - 65px); 
     @media #{$sm} {
       height: auto;      
     }
   }
-
   &__icon {
     position: relative;
     cursor: pointer;
     z-index: 1;
     font-size: 150%;
-    
+    display: none;  
     &:hover{color:white;}
-
     @media #{$sm} {display: none;}
   }
 }
@@ -81,7 +93,4 @@
     background: #000000;
     @media #{$sm}{background: none;}
   }
-}
-.overlay{
-  @media #{$sm}{display: none;}
 }
