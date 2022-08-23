@@ -11,12 +11,12 @@ export const Project = (id,name, mockup, repo, demo, description, techStack) => 
     <img src='${mockup}' alt="project-image">
         
     <div class=project-info>
-    <p>${description}</p>
-    
-    <div class=links>
-    <a href=${repo} target=_blank>${github}</a>
-    ${!id?`<a href=${demo} target=_blank>${link}</a>`: ''}
-    </div>
+        <p>${description}</p>
+        
+        <div class=links>
+            <a href=${repo} target=_blank>Code ${github}</a>
+            ${!id?`<a href=${demo} target=_blank>Demo ${link}</a>`: ''}
+        </div>
     </div>
             
     `
