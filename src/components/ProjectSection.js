@@ -1,5 +1,5 @@
 import { Project } from "./Project.js";
-import { projectsData } from "../../helpers/projects.js";
+import { projectsData } from "../../helpers/assets.js";
 
 export const projectSection = (clase, nombre) => {
   const projectSection = document.createElement("SECTION");
