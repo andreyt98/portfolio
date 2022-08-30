@@ -8,7 +8,7 @@ export const Project = (id,name, mockup, repo, demo, description, techStack) => 
     project.innerHTML = 
     `
     <h3>${name}</h3>
-    <img src='${mockup}' alt="project-image">
+    <img src='${mockup}' alt="project-image" loading=lazy>
         
     <div class=project-info>
         <p>${description}</p>

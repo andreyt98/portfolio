@@ -22,6 +22,7 @@ export const About = (clase,nombre) => {
             stackImg.src = element;
             stackImg.alt = element.slice(17,-4);
             stackImg.title = element.slice(17,-4)
+            stackImg.loading = 'lazy';
             stackContainer.append(stackImg);
         });
         
