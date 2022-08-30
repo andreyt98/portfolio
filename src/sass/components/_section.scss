@@ -3,9 +3,11 @@ section {
   position: relative;
   text-align: center;
   overflow-x: hidden;
+  backdrop-filter: blur(17px);
+
   .big {
     font-family: "Staatliches", cursive;
-    color: #1b0d205e;
+    color: #ffffff09;
     font-size: 5.5rem;
 
     @media #{$xss} {font-size: 7rem;}
@@ -13,6 +15,7 @@ section {
     @media #{$lg} {font-size: 10rem;}
   }
 
+  h1,h2{user-select: none;}
   h2 {
     font-family: "Staatliches", cursive;
     font-size: 3.5rem;
@@ -20,8 +23,9 @@ section {
     left: 50%;
     transform: translate(-50%);
     top: 2.2rem;
-    color: $primary;
-    background: -webkit-linear-gradient( 2deg, #47b8b8, #895ad4, #fc5050) ;
+    color: #c4c4c4a4;
+    background: -webkit-linear-gradient( 2deg,#d5e3ff86, #c7ecff9c, #d5e3ff86);
+
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

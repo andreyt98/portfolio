@@ -1,13 +1,17 @@
 .about {
   @extend .flex-col-center;
+  background: linear-gradient(to bottom, #101225ab, #101625ab, #0a0713);
+
   gap: 2rem;
   p {
-      @media #{$sm} {
+    @media #{$sm} {
       line-height: 40px;
       width: 70%;
       margin: 0 auto;
     }
-    @media #{$lg} {width: 50%;}
+    @media #{$lg} {
+      width: 50%;
+    }
   }
   .stackContainer {
     @extend .flex-row-center;
@@ -16,7 +20,9 @@
     padding-bottom: 2.5rem;
     img {
       width: 15%;
-      @media #{$sm} {width: 8%;}
+      @media #{$sm} {
+        width: 8%;
+      }
     }
   }
 }
