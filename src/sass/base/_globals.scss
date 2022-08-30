@@ -13,10 +13,8 @@ html {scroll-behavior: smooth;}
 body {
   color: $font;
   font-family: "Poppins", sans-serif;
-  background: $base;
-  @media #{$sm}{
-    padding-top: 3.2rem;
-  }
+  background: url('https://res.cloudinary.com/andreyt/image/upload/q_auto/v1661823734/Portfolio-assets/luces-triangulares-neon-3471_wjez4g.webp');
+  background-size: cover;
 }
 ul {list-style: none;}
 a,
@@ -30,4 +28,14 @@ a {
 button {
   border: none;
   cursor: pointer;
+}
+
+.socials {
+  font-size: 1.9rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
 }
