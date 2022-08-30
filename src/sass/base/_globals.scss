@@ -13,7 +13,8 @@ html {scroll-behavior: smooth;}
 body {
   color: $font;
   font-family: "Poppins", sans-serif;
-  background: url('https://res.cloudinary.com/andreyt/image/upload/q_auto/v1661823734/Portfolio-assets/luces-triangulares-neon-3471_wjez4g.webp');
+  background-color: $base;
+  background-image: url('https://res.cloudinary.com/andreyt/image/upload/c_scale,q_auto,w_1012/v1661823734/Portfolio-assets/luces-triangulares-neon-3471_wjez4g.webp');
   background-size: cover;
 }
 ul {list-style: none;}
