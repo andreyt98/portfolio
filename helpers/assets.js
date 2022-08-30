@@ -29,3 +29,6 @@ export const projectsData = [
     techStack: ["JavaScript","SASS","Vite","Firebase","HTML", "CSS"],
   },
 ];
+
+export const heroBackground = `https://res.cloudinary.com/andreyt/image/upload/q_auto/v1661823733/Portfolio-assets/lineas-neon-brillando-abstracto-9697_teb1kq.webp`;
+export const bodyBackground = `https://res.cloudinary.com/andreyt/image/upload/q_auto/v1661823734/Portfolio-assets/luces-triangulares-neon-3471_wjez4g.webp`;

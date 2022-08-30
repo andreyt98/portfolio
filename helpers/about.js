@@ -1,5 +1,5 @@
 export const about = {
-    me: "I'm a third year computer engineering student and a frontend development passionate located in Costa Rica, focused on building beautiful web applications using JavaScript. (I'm currently learning React and agile methodologies).",
+    me: "I'm a third year computer engineering student and a frontend development passionate located in Costa Rica, focused on building web applications using best software development practices, JavaScript and React.",
     stack: [
         'assets/techStack/javascript.svg',
         'assets/techStack/sass.svg',
