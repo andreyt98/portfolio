@@ -1,5 +1,14 @@
 export const projectsData = [
    {
+    name: "Business manager",
+    mockup: "https://res.cloudinary.com/andreyt/image/upload/q_auto/v1662096433/Portfolio-assets/business-manager-mockup_ge1zg9.webp",
+    description:
+      "Project in progress...<br>",
+    repo: "",
+    demo: "",
+    techStack: ["JavaScript","SASS","Vite","Firebase","HTML", "CSS", ],
+  },
+   {
     name: "Movies and TV shows trailer app",
     mockup: "https://res.cloudinary.com/andreyt/image/upload/q_auto/v1660264116/Portfolio-assets/view-mockup_n0ttwl.webp",
     description:
