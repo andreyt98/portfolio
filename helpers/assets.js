@@ -22,7 +22,7 @@ export const projectsData = [
     name: "Frontend for a booking hotels webpage",
     mockup: "https://res.cloudinary.com/andreyt/image/upload/q_auto/v1660263668/Portfolio-assets/travel-mockup_cmxseh.webp",
     description:
-    "Frontend for a ficticious booking hotels webpage using SASS,<br>focused on responsive design.",
+    "Frontend for a fictitious booking hotels webpage using SASS,<br>focused on responsive design.",
     repo: "https://github.com/andreyt98/travel",
     demo: "https://andreyt98.github.io/travel/",
     techStack: ["JavaScript","SASS","Webpack","HTML", "CSS", ],
