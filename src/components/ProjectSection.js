@@ -15,10 +15,10 @@ export const projectSection = (clase, nombre) => {
 
   projectsData.forEach((element) =>{
     
-    const {id,name, mockup, repo, demo, description, techStack} = element;
+    const {inProgress, id,name, mockup, repo, demo, description, techStack} = element;
     
     projectSection.append(
-      Project( id,name, mockup, repo, demo, description, techStack),
+      Project(inProgress, id,name, mockup, repo, demo, description, techStack),
     );
   })
 

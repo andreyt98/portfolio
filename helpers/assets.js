@@ -1,12 +1,13 @@
 export const projectsData = [
    {
+    inProgress: "true",
     name: "Business manager",
     mockup: "https://res.cloudinary.com/andreyt/image/upload/q_auto/v1662096433/Portfolio-assets/business-manager-mockup_ge1zg9.webp",
     description:
       "Project in progress...<br>",
-    repo: "",
-    demo: "",
-    techStack: ["JavaScript","SASS","Vite","Firebase","HTML", "CSS", ],
+    repo: "#",
+    demo: "#",
+    techStack: ["JavaScript", "SASS","Vite","Firebase","HTML", "CSS",  "#Object Oriented", "#LocalStorage", "#CRUD", "#Layered Architecture", "#User stories" ],
   },
    {
     name: "Movies and TV shows trailer app",
@@ -15,7 +16,7 @@ export const projectsData = [
       "This is a vanilla JS single page application.<br>It use a router to display content, and Fetch to consume TMDB API.",
     repo: "https://github.com/andreyt98/view",
     demo: "https://view-app-cr.web.app/",
-    techStack: ["JavaScript","SASS","Webpack", "TMDB API", "Firebase","HTML", "CSS", ],
+    techStack: ["JavaScript","SASS","Webpack", "TMDB API", "Firebase","HTML", "CSS", "#SPA", "#Promises", "#Asynchronous JS" ],
   },
   
   {
@@ -25,7 +26,7 @@ export const projectsData = [
     "Frontend for a fictitious booking hotels webpage using SASS,<br>focused on responsive design.",
     repo: "https://github.com/andreyt98/travel",
     demo: "https://andreyt98.github.io/travel/",
-    techStack: ["JavaScript","SASS","Webpack","HTML", "CSS", ],
+    techStack: ["JavaScript","SASS","Webpack","HTML", "CSS", "#Flexbox", "#Grid","#Responsive", "#Mobile First" ],
   },
   {
     id:'portfolio',
@@ -35,7 +36,7 @@ export const projectsData = [
     "Portfolio to showcase my skills and projects, it was built with JavaScript, SASS and Vite (build tool).<br> Its's still under construction and there'll be more projects soon! :)",
     repo: "https://github.com/andreyt98/portfolio",
     demo: "https://andrey-torrente.web.app/",
-    techStack: ["JavaScript","SASS","Vite","Firebase","HTML", "CSS"],
+    techStack: ["JavaScript","SASS","Vite","Firebase","HTML", "CSS", "#Fun"],
   },
 ];
 
