@@ -7,7 +7,7 @@ export const projectsData = [
       "Project in progress...<br>",
     repo: "#",
     demo: "#",
-    techStack: ["JavaScript", "SASS - CSS","HTML", "Vite", "#Object Oriented", "#LocalStorage", "#CRUD", "#Layered Architecture"],
+    techStack: ["React", "SASS - CSS","HTML", "Vite", "#LocalStorage", "#CRUD", "#React Router"],
   },
    {
     name: "Movies and TV shows trailer app",
@@ -33,7 +33,7 @@ export const projectsData = [
     name: "Personal portfolio",
     mockup: "https://res.cloudinary.com/andreyt/image/upload/q_auto/v1661891421/Portfolio-assets/portfolio-mockup_xgicwr.webp",
     description:
-    "Portfolio to showcase my skills and projects, it was built with JavaScript, SASS and Vite (build tool).<br> Its's still under construction and there'll be more projects soon! :)",
+    "Portfolio to showcase my skills and projects, it was built with JavaScript using components, SASS and Vite (build tool).<br> Its's still under construction and there'll be more projects soon! :)",
     repo: "https://github.com/andreyt98/portfolio",
     demo: "https://andrey-torrente.web.app/",
     techStack: ["JavaScript","SASS - CSS","Vite","HTML", "#Fun"],

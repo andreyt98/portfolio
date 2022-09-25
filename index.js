@@ -9,7 +9,6 @@ import { Navbar } from "./src/components/Navbar";
 const root = document.querySelector("#app");
 
 root.append(
-   // Header(),
     Navbar(),
     Hero(),
     projectSection("projects", "PROJECTS"),
