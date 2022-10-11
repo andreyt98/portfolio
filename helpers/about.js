@@ -8,6 +8,7 @@ export const about = {
         'assets/techStack/sql.svg',
         'assets/techStack/github.svg',
         'assets/techStack/sass.svg',
+        'assets/techStack/bootstrap.svg',
         'assets/techStack/html.svg',
         'assets/techStack/css.svg',
         'assets/techStack/npm.svg',

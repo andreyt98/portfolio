@@ -8,7 +8,7 @@ export const Hero = () => {
     <div class="blur-bg"> </div>
     <h1>
         <span>Andrey Torrente</br></span>
-        <span class=bolder >Software developer</span>
+        <span class=bolder>Software developer</span>
     </h1>
 
     <div class="socials">
