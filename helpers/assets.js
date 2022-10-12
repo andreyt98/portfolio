@@ -1,12 +1,11 @@
 export const projectsData = [
    {
-    inProgress: "true",
     name: "Business manager",
     mockup: "https://res.cloudinary.com/andreyt/image/upload/q_auto/v1662096433/Portfolio-assets/business-manager-mockup_ge1zg9.webp",
     description:
-      "Project in progress...<br>",
-    repo: "#",
-    demo: "#",
+      "In progress React CRUD app <br> Uses localStorage, React router, arrays and objects manipulation<br> and HTML custom tables to display tabular data.<br>",
+    repo: "https://github.com/andreyt98/businessManager",
+    demo: "https://bmanagerz.web.app/",
     techStack: ["React", "SASS - CSS","HTML", "Vite", "#LocalStorage", "#CRUD", "#React Router"],
   },
    {
