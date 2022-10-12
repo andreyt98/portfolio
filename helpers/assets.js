@@ -17,6 +17,15 @@ export const projectsData = [
     demo: "https://view-app-cr.web.app/",
     techStack: ["JavaScript","SASS - CSS", "HTML", "Webpack", "TMDB API", "#Fetch", "#SPA", "#Promises", "#Asynchronous JS" ],
   },
+   {
+    name: "Task Manager",
+    mockup: "https://res.cloudinary.com/andreyt/image/upload/q_auto/v1665556834/Portfolio-assets/task-manager-mockup_nkfmec.webp",
+    description:
+      "React Task Manager App <br> Uses localStorage to save and retrieve tasks <br> and implements styles with Bootstrap",
+    repo: "https://github.com/andreyt98/TaskManagerApp",
+    demo: "https://taask-manager.web.app",
+    techStack: ["React", "Bootstrap","HTML", "Vite", "#LocalStorage"],
+  },
   
   {
     name: "Frontend for a booking hotels webpage",
