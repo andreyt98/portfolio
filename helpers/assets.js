@@ -1,5 +1,14 @@
 export const projectsData = [
    {
+    name: "Movies and TV shows trailer app V2",
+    mockup: "https://res.cloudinary.com/andreyt/image/upload/q_auto/v1668640366/Portfolio-assets/new-productions-mockup_2_cumsgm.webp",
+    description:
+      "In progress React API based application <br> Uses arrays and objects manipulation to display <br>media information in multiple UI components.<br>",
+    repo: "https://github.com/andreyt98/new-productions",
+    demo: "https://new-productions.web.app/",
+    techStack: ["React", "SASS - CSS","HTML", "Vite", "TMDB API", "#Fetch", "#SPA", "#Promises", "#Asynchronous JS"],
+  },
+   {
     name: "Business manager",
     mockup: "https://res.cloudinary.com/andreyt/image/upload/q_auto/v1662096433/Portfolio-assets/business-manager-mockup_ge1zg9.webp",
     description:
@@ -9,7 +18,7 @@ export const projectsData = [
     techStack: ["React", "SASS - CSS","HTML", "Vite", "#LocalStorage", "#CRUD", "#React Router"],
   },
    {
-    name: "Movies and TV shows trailer app",
+    name: "Movies and TV shows trailer app V1",
     mockup: "https://res.cloudinary.com/andreyt/image/upload/q_auto/v1660264116/Portfolio-assets/view-mockup_n0ttwl.webp",
     description:
       "This is a vanilla JS single page application.<br>It use a router to display content, and Fetch to consume TMDB API.",
