@@ -11,7 +11,7 @@ export const About = (clase,nombre) => {
         
         <p>${me}</p>
 
-        <h3>| Technologies that i use</h3>
+        <h3>| Tech Stack</h3>
         `
 
         const stackContainer = document.createElement('DIV');

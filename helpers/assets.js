@@ -12,7 +12,7 @@ export const projectsData = [
     name: "Business manager",
     mockup: "https://res.cloudinary.com/andreyt/image/upload/q_auto/v1662096433/Portfolio-assets/business-manager-mockup_ge1zg9.webp",
     description:
-      "In progress React CRUD app <br> Uses localStorage, React router, arrays and objects manipulation<br> and HTML custom tables to display tabular data.<br>",
+      "In progress React CRUD app <br> Uses localStorage, React router, arrays and objects manipulation<br> to display tabular data on HTML custom tables.<br>",
     repo: "https://github.com/andreyt98/businessManager",
     demo: "https://bmanagerz.web.app/",
     techStack: ["React", "SASS - CSS","HTML", "Vite", "#LocalStorage", "#CRUD", "#React Router"],
@@ -30,7 +30,7 @@ export const projectsData = [
     name: "Task Manager",
     mockup: "https://res.cloudinary.com/andreyt/image/upload/q_auto/v1665556834/Portfolio-assets/task-manager-mockup_nkfmec.webp",
     description:
-      "React Task Manager App <br> Uses localStorage to save and retrieve tasks <br> and implements styles with Bootstrap",
+      "React Task Manager App <br> Uses arrays and localStorage to save and retrieve tasks <br> and implements styles with Bootstrap",
     repo: "https://github.com/andreyt98/TaskManagerApp",
     demo: "https://taask-manager.web.app",
     techStack: ["React", "Bootstrap","HTML", "Vite", "#LocalStorage"],
@@ -40,7 +40,7 @@ export const projectsData = [
     name: "Frontend for a booking hotels webpage",
     mockup: "https://res.cloudinary.com/andreyt/image/upload/q_auto/v1660263668/Portfolio-assets/travel-mockup_cmxseh.webp",
     description:
-    "Frontend for a fictitious booking hotels webpage using SASS,<br>focused on responsive design.",
+    "Frontend for a fictitious booking hotels webpage using SASS.<br>Focused on responsive design.",
     repo: "https://github.com/andreyt98/travel",
     demo: "https://andreyt98.github.io/travel/",
     techStack: ["JavaScript","SASS - CSS","HTML","Webpack", "#Flexbox", "#Grid","#Responsive", "#Mobile First" ],
