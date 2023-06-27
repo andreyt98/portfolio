@@ -1,7 +1,7 @@
 export const projectsData = [
    {
     name: "Movies and TV shows trailer app V2",
-    mockup: "https://res.cloudinary.com/andreyt/image/upload/q_auto/v1687823715/new-productions_-_mockup_v2_compressed_e4zeu0.webp",
+    mockup: "https://res.cloudinary.com/andreyt/image/upload/q_auto/v1687823715/Portfolio-assets/new-productions_-_mockup_v2_compressed_e4zeu0.webp",
     description:
       "In progress React API based application <br> Uses arrays and objects manipulation to display <br>media information in multiple UI components.<br>",
     repo: "https://github.com/andreyt98/new-productions",
