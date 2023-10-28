@@ -8,10 +8,7 @@
   margin: 0 auto;
   &:hover {
     background: #160f22;
-    outline: 1.2px solid #eaf5ff;
-  }
-
-  &:focus {
-    outline: 1.2px solid #eaf5ff;
+    border-radius: 25px;
+    border: 1px solid #fdfdfd;
   }
 }

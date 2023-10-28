@@ -27,19 +27,19 @@ export const sendEmail = (evt) => {
     if (!nameRegex.test(name.value)) {
       name.style.border = "1px solid red";
     } else {
-      name.style.border = "1px solid #d2bdfc";
+      name.style.border = "1px solid #8b8b8bd0";
     }
 
     if (!messageRegex.test(message.value)) {
       message.style.border = "1px solid red";
     } else {
-      message.style.border = "1px solid #d2bdfc";
+      message.style.border = "1px solid #8b8b8bd0";
     }
 
     if (!emailRegex.test(email.value)) {
       email.style.border = "1px solid red";
     } else {
-      email.style.border = "1px solid #d2bdfc";
+      email.style.border = "1px solid #8b8b8bd0";
     }
   }
 };
