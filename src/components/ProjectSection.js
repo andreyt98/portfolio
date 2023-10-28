@@ -1,15 +1,15 @@
 import { Project } from "./Project.js";
 import { projectsData } from "../../helpers/assets.js";
 
-export const projectSection = (clase, nombre) => {
+export const projectSection = () => {
   const projectSection = document.createElement("SECTION");
-  projectSection.classList.add(`${clase}`);
+  projectSection.classList.add(`projects`);
 
   projectSection.insertAdjacentHTML(
     "beforeend",
     `
-    <h1 class=big>${nombre}</h1>
-    <h2>${nombre}</h2>        
+    <h1 class=big>PROJECTS</h1>
+    <h2>projects</h2>        
      `
   );
 

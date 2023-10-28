@@ -11,7 +11,7 @@ const root = document.querySelector("#app");
 root.append(
     Navbar(),
     Hero(),
-    projectSection("projects", "PROJECTS"),
-    About("about", "About"),
-    Contact("contact", "CONTACT")
+    projectSection(),
+    About(),
+    Contact()
 );

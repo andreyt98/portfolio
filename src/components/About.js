@@ -1,13 +1,13 @@
 import {about} from '../../helpers/about.js'
 const {me,stack} = about;
-export const About = (clase,nombre) => {
+export const About = () => {
     const about = document.createElement("SECTION");
-    about.classList.add(`${clase}`);
+    about.classList.add('about');
     about.innerHTML =
         
         `
-        <h1 class=big>${nombre}</h1>
-        <h2>${nombre}</h2>   
+        <h1 class=big>ABOUT</h1>
+        <h2>ABOUT</h2>   
         
         <p>${me}</p>
 

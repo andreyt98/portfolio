@@ -3,13 +3,13 @@ import { sendEmail } from "../../helpers/sendEmail.js";
 import { socials } from "../../helpers/icons.js";
 const { linkedin, github } = socials;
 
-export const Contact = (clase, nombre) => {
+export const Contact = () => {
   const contact = document.createElement("SECTION");
-  contact.classList.add(`${clase}`);
+  contact.classList.add(`contact`);
   contact.innerHTML = `
     
-        <h1 class=big>${nombre}</h1>
-        <h2>${nombre}</h2>   
+        <h1 class=big>CONTACT</h1>
+        <h2>CONTACT</h2>   
         <div class="socials">
           <a href="https://www.linkedin.com/in/andrey-torrente" target="_blank">${linkedin}</a>
           <a href="https://www.github.com/andreyt98" target="_blank">${github}</a>
