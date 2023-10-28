@@ -22,7 +22,7 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    box-shadow: 1px 1px 5px #ffffff7a;
+    box-shadow:  .3px .3px 1px 1px #8b8b8b23;
     border-radius: 12px;
 
     //para que ignore al flex
@@ -44,7 +44,7 @@
 
   .project-info {
     @media #{$md} {
-      box-shadow: 1px 1px 5px #ffffff7a;
+      // box-shadow:  .3px .3px 1px 1px #ffffff15;
     }
     padding: 2rem 0.5rem;
     border-radius: 12px;

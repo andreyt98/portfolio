@@ -1,6 +1,6 @@
 .contact {
   padding-bottom: 7rem;
-  background: linear-gradient(to bottom, #0a0713, #0a0713f3 );
+  background: linear-gradient(to bottom, #0a0713, #0a0713f3);
 
   &__form {
     text-align: initial;
@@ -17,16 +17,15 @@
 
     :is(input, textarea) {
       border-radius: 15px;
-      background: $base;
-      border: 1px solid $font;
       background: none;
       color: $font;
       padding: 0.6rem 2rem;
       margin-bottom: 1.5rem;
       display: block;
       width: 100%;
+      border: 1px solid #8b8b8bd0;
       &:focus {
-        outline: 1.5px solid #00ffea;
+        outline: 1.2px solid #eaf5ff;
       }
     }
     textarea {
