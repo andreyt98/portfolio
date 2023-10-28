@@ -10,6 +10,7 @@
   bottom: 0;
   z-index: 3;
   backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   
   @media #{$sm} {
     flex-direction: row;
