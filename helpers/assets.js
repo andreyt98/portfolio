@@ -48,7 +48,7 @@ export const projectsData = [
   {
     id:'portfolio',
     name: "Personal portfolio",
-    mockup: "https://res.cloudinary.com/andreyt/image/upload/q_auto/v1661891421/Portfolio-assets/portfolio-mockup_xgicwr.webp",
+    mockup: "https://res.cloudinary.com/andreyt/image/upload/q_auto/v1709184764/Portfolio-assets/portfolio-mockup_tn9gzh.webp",
     description:
     "Portfolio to showcase my skills and projects, it was built with JavaScript using components, SASS and Vite (build tool).<br> Its's still under construction and there'll be more projects soon! :)",
     repo: "https://github.com/andreyt98/portfolio",
