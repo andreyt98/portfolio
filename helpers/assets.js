@@ -1,9 +1,8 @@
 export const projectsData = [
    {
     name: "Movies and TV shows trailer app V2",
-    mockup: "https://res.cloudinary.com/andreyt/image/upload/q_auto/v1687823715/Portfolio-assets/new-productions_-_mockup_v2_compressed_e4zeu0.webp",
-    description:
-      "In progress React API based application <br> Uses arrays and objects manipulation to display <br>media information in multiple UI components.<br>",
+    mockup: "https://res.cloudinary.com/andreyt/image/upload/q_auto/v1709333241/Portfolio-assets/mockup-min_roehvb.webp",
+    description:"React API based application <br> Uses arrays and objects manipulation to display <br>media information in multiple UI components.<br>",
     repo: "https://github.com/andreyt98/new-productions",
     demo: "https://new-productions.web.app/",
     techStack: ["React", "SASS - CSS","HTML", "Vite", "TMDB API", "#Fetch", "#SPA", "#Promises", "#Asynchronous JS"],
@@ -28,7 +27,7 @@ export const projectsData = [
   },
    {
     name: "Task Manager",
-    mockup: "https://res.cloudinary.com/andreyt/image/upload/q_auto/v1665556834/Portfolio-assets/task-manager-mockup_nkfmec.webp",
+    mockup: "https://res.cloudinary.com/andreyt/image/upload/q_auto/v1709338324/Portfolio-assets/mockup_nx5vay.webp",
     description:
       "React Task Manager App <br> Uses arrays and localStorage to save and retrieve tasks <br> and implements styles with Bootstrap",
     repo: "https://github.com/andreyt98/TaskManagerApp",
@@ -58,4 +57,3 @@ export const projectsData = [
 ];
 
 export const heroBackground = `https://res.cloudinary.com/andreyt/image/upload/q_auto/v1661823733/Portfolio-assets/lineas-neon-brillando-abstracto-9697_teb1kq.webp`;
-export const bodyBackground = `https://res.cloudinary.com/andreyt/image/upload/q_auto/v1661823734/Portfolio-assets/luces-triangulares-neon-3471_wjez4g.webp`;
